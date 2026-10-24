@@ -1,0 +1,32 @@
+# --- data and artefacts (never committed) ---
+data/*
+!data/.gitkeep
+outputs/
+results/
+checkpoints/
+weights/
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.npz
+*.parquet
+
+# --- caches ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.cache/
+
+# --- environments ---
+.env
+.venv/
+venv/
+*.egg-info/
+
+# --- logs and temp ---
+logs/
+*.log
+tmp/
+.DS_Store
